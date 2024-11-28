@@ -22,7 +22,7 @@ git clone https://github.com/mvindasr/chatgpt-webdev-main.git
 cd chatgpt-webdev-main
 ```
 
-3. Install all dependencies
+3. Install all dependencies for each subproject
 
 ```bash
 npm install
@@ -46,13 +46,13 @@ Once you have the `.env` file, add the chatgpt api token to enable prompts reque
 
 ## Usage
 
-Once you have set up the project and installed the dependencies, you can run the server:
+Once you have set up the project and installed the dependencies, go to samples folder and run the server:
 
 ```bash
 npm start
 ```
 
-This command will start the development server at http://localhost:3000/. You can try /chat and /playground here. Also you can try CookingMasters app by running it other port with Go Live feature in VSCode or any other option you prefer while server is running.
+This command will start the development server at http://localhost:3000/. You can try /chat and /playground here. Also you can try CookingMasters app by running it in another port with Go Live feature in VSCode or any other option you prefer while server is running.
 
 ## Screenshots
 
